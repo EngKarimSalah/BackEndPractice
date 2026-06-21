@@ -1,10 +1,14 @@
-﻿using System;
+﻿using MenuOOPsystem.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MenuOOPsystem
 {
-    internal class SystemContext
+    public class SystemContext
     {
+        public List<Employee> employees {  get; set; }
+        public List<Department> departments { get; set; }
+
     }
 }
